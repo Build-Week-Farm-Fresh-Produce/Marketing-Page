@@ -135,7 +135,6 @@ html {
 html,
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #FFF8DC;
 }
 h1,
 h2,
@@ -143,8 +142,9 @@ h3,
 h4,
 h5 {
   font-family: 'Fira Sans', sans-serif;
+}
+h1 {
   font-size: 4rem;
-  color: #556B2F;
 }
 h2 {
   font-size: 3.2rem;
@@ -157,12 +157,10 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 1240px;
+  max-width: 1400px;
   width: 100%;
-  margin: 0 auto;
-}
-.shop-now h2 {
-  text-align: center;
+  margin: auto;
+  border: 5px solid purple;
 }
 .nav-container {
   display: flex;
@@ -271,4 +269,21 @@ footer button {
 }
 .how-it-works .pick-up-order p {
   text-align: center;
+}
+.about .top-text-area {
+  border: 4px solid green;
+}
+.about .top-text-area h1 {
+  text-align: center;
+}
+.about .top-text-area p {
+  text-align: center;
+}
+.about .top-image img {
+  max-width: 1400px;
+  width: 100%;
+}
+.about .bio-area {
+  display: flex;
+  flex-direction: column;
 }
