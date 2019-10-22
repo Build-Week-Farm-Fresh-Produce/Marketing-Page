@@ -160,6 +160,7 @@ p {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
 }
 .nav-container {
   display: flex;
@@ -211,4 +212,49 @@ p {
   width: 60%;
   text-align: center;
   padding-top: 20px;
+}
+.how-it-works {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+.how-it-works .pick-your-farm {
+  border: 1px solid grey;
+  width: 28%;
+}
+.how-it-works .pick-your-farm img {
+  width: 100%;
+}
+.how-it-works .pick-your-farm h2 {
+  text-align: center;
+}
+.how-it-works .pick-your-farm p {
+  width: 100%;
+  text-align: center;
+}
+.how-it-works .choose-your-produce {
+  border: 1px solid grey;
+  width: 28%;
+}
+.how-it-works .choose-your-produce img {
+  width: 100%;
+}
+.how-it-works .choose-your-produce h2 {
+  text-align: center;
+}
+.how-it-works .choose-your-produce p {
+  text-align: center;
+}
+.how-it-works .pick-up-order {
+  border: 1px solid grey;
+  width: 28%;
+}
+.how-it-works .pick-up-order img {
+  width: 100%;
+}
+.how-it-works .pick-up-order h2 {
+  text-align: center;
+}
+.how-it-works .pick-up-order p {
+  text-align: center;
 }
