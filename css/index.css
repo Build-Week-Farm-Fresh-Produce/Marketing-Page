@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Pattaya', sans-serif;
   font-size: 4rem;
   color: #556B2F;
 }
@@ -194,7 +194,8 @@ p {
   justify-content: space-evenly;
 }
 .nav-container .log-in {
-  background-color: #FF6347;
+  background-color: #556B2F;
+  opacity: 0.8;
   padding: 2% 6%;
   border-radius: 10px;
 }
