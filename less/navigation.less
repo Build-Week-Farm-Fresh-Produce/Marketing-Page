@@ -5,9 +5,18 @@
     align-items: center;
     padding: 2%;
 
+    @media @tablet {
+        flex-direction: column;
+    }
+
     h1 {
         // border: 1px solid grey;
         width: 35%;
+
+        @media @tablet {
+            width: 100%;
+            text-align: center;
+        }
     }//this closes h1
 
     nav {
@@ -16,6 +25,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media @tablet {
+            width: 100%;
+            justify-content: space-evenly;
+            padding: 2%;
+        }
 
         a {
             text-decoration: none;
@@ -34,6 +49,10 @@
         width: 20%;
         display: flex;
         justify-content: space-evenly;
+
+        @media @tablet {
+            width: 50%;
+        }
     }
 
     .log-in {

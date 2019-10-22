@@ -170,14 +170,32 @@ p {
   align-items: center;
   padding: 2%;
 }
+@media (max-width: 800px) {
+  .nav-container {
+    flex-direction: column;
+  }
+}
 .nav-container h1 {
   width: 35%;
+}
+@media (max-width: 800px) {
+  .nav-container h1 {
+    width: 100%;
+    text-align: center;
+  }
 }
 .nav-container nav {
   width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 800px) {
+  .nav-container nav {
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2%;
+  }
 }
 .nav-container nav a {
   text-decoration: none;
@@ -192,6 +210,11 @@ p {
   width: 20%;
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .nav-container .nav-buttons {
+    width: 50%;
+  }
 }
 .nav-container .log-in {
   background-color: #556B2F;
@@ -224,7 +247,7 @@ footer nav a {
 }
 .header img {
   max-width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .main-content {
   display: flex;
