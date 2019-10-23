@@ -135,7 +135,6 @@ html {
 html,
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #FFF8DC;
 }
 @media (max-width: 800px) {
   html,
@@ -148,9 +147,11 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: 'Fira Sans', sans-serif;
+}
+h1 {
   font-family: 'Pattaya', sans-serif;
   font-size: 4rem;
-  color: #556B2F;
 }
 h2 {
   font-size: 3.2rem;
@@ -163,12 +164,9 @@ p {
   line-height: 1.5;
 }
 .container {
-  max-width: 1240px;
+  max-width: 1400px;
   width: 100%;
-  margin: 0 auto;
-}
-.shop-now h2 {
-  text-align: center;
+  margin: auto;
 }
 .nav-container {
   background-color: #FFF8DC;
@@ -378,6 +376,68 @@ footer nav a {
 .how-it-works .pick-up-order p {
   text-align: center;
 }
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v7/zYXgKVElMYYaJe8bpLHnCwDKhdHeEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pattaya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pattaya'), local('Pattaya-Regular'), url(https://fonts.gstatic.com/s/pattaya/v5/ea8ZadcqV_zkHY-XBdet8w.ttf) format('truetype');
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #FFF8DC;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 4rem;
+  color: #556B2F;
+}
+.about .top-text-area {
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.about .top-text-area h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.about .top-text-area p {
+  text-align: center;
+}
+.about .top-image img {
+  max-width: 1400px;
+  width: 100%;
+  border-radius: 2%;
+}
+.about .col12 h1 {
+  padding-bottom: 20px;
+}
+.about .col12 {
+  padding: 25px 20px;
+}
+.about .two-column {
+  padding-bottom: 20px 20px;
+}
+.about .bio-image img {
+  border-radius: 50%;
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+.about .col12 h1 {
+  color: #556B2F;
+=======
 .shop-now {
   border-top: 2px dashed #CD853F;
   display: flex;
