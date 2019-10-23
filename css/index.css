@@ -184,7 +184,7 @@ p {
   }
 }
 .nav-container h1 {
-  width: 35%;
+  width: 40%;
 }
 @media (max-width: 800px) {
   .nav-container h1 {
@@ -195,7 +195,7 @@ p {
 .nav-container nav {
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 @media (max-width: 800px) {
