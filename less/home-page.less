@@ -2,26 +2,28 @@
 
     img {
         max-width: 100%;
+        opacity: 0.8;
     }
 
 }//this closes .header
 
 .main-content {
-    border: 1px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px; 
+    padding-bottom: 50px; 
+    border-bottom: 2px dashed #CD853F;
+    margin-top: 50px;
+
+    
 
     h1 {
-        border: 1px solid grey;
         width: 80%;
         text-align: center;
     }//this closes h1
 
     p {
-        border: 1px solid grey;
         width: 60%;
         text-align: center;
         padding-top: 20px;
@@ -29,23 +31,31 @@
 }//this closes main-content
 
 .how-it-works {
-    border: 1px solid grey; 
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 40px 20px;
+
+    @media @mobile {
+        flex-direction: column;
+        align-items: center;
+    }
     
 
     .pick-your-farm {
-        border: 1px solid grey;
         width: 28%;
+
+        @media @mobile {
+            width: 80%;
+        }
 
 
         img {
-            width: 100%;
+            .imagesMainContent()
         }//this closes img
 
         h2 {
             text-align: center;
+            margin: 10px 0px;
         }
 
 
@@ -57,15 +67,20 @@
     }//this closes .pick-your-farm
 
     .choose-your-produce {
-        border: 1px solid grey;
         width: 28%;
 
+        @media @mobile {
+            width: 80%;
+            margin-top: 30px;
+        }
+
         img{
-            width: 100%;
+            .imagesMainContent()
         }//this closes img
 
         h2 {
             text-align: center;
+            margin: 10px 0px;
         }
 
         p{
@@ -76,15 +91,20 @@
     }//this closes choose-your-produce
 
     .pick-up-order {
-        border: 1px solid grey;
         width: 28%;
 
+        @media @mobile {
+            width: 80%;
+            margin-top: 30px;
+        }
+
         img {
-            width: 100%;
+            .imagesMainContent()
         }
 
         h2 {
             text-align: center;
+            margin: 10px 0px;
         }
 
         p {
@@ -96,5 +116,41 @@
 }//this closes how-it-works
 
 .shop-now {
+    border-top: 2px dashed #CD853F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     
+    h2 {
+        margin-top: 50px;
+    }
+    
+    p {
+        text-align: center;
+        width: 30%;
+        padding: 20px 0px; 
+
+        @media @mobile {
+            width: 80%;
+        }
+    }
+
+    .shop-now-button {
+        background-color: @yellow;
+        font-size: 1.7rem;
+        padding: 1% 5%;
+        border-radius: 10px;
+        margin: 20px 0;
+        opacity: 0.9;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        @media @mobile {
+            width: 45%;
+            padding: 2% 5%;
+        }
+    }
 }

@@ -10,10 +10,14 @@
   html, body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: @background;
+
+    @media @tablet {
+      padding: 1rem;
+    }
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Pattaya', sans-serif;
     font-size: 4rem;
     color: @headers;
   }
@@ -28,7 +32,7 @@
   
   p {
     font-size: 1.6rem;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   
   .container {

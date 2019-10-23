@@ -1,36 +1,100 @@
 .nav-container {
+    // border: 1px solid grey;
+    background-color: @background;
     display: flex;
-    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+    width: 100%;
+
+    @media @tablet {
+        flex-direction: column;
+    }
 
     h1 {
+        // border: 1px solid grey;
         width: 40%;
+
+        @media @tablet {
+            width: 100%;
+            text-align: center;
+        }
     }//this closes h1
 
     nav {
+        // border: 1px solid grey;
         width: 40%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
+
+        @media @tablet {
+            width: 70%;
+            justify-content: space-between;
+            padding: 2rem;
+
+            @media @mobile {
+                width: 100%;
+                justify-content: space-between;
+                padding: 1rem;
+            }
+        }
 
         a {
             text-decoration: none;
             font-size: 1.7rem;
             color: @brown;
+
+            
         }//this closes a
     }//this closes nav
 
-    button {
-        font-size: 1.5rem;
+    // button {
+    //     font-size: 1.5rem;
+    //     width: 10rem;
+    // }
+
+    .nav-buttons {
+        // border: 1px solid grey;
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+
+        @media @tablet {
+            width: 50%;
+        }
+
+        @media @mobile {
+            margin: 1rem 0rem;
+            width: 70%;
+        }
     }
 
     .log-in {
-        background-color: @red;
-        width: 80px;
+        background-color: @headers;
+        font-size: 1.6rem;
+        width: 40%;
+        opacity: 0.8;
+        padding: 2% 6%;
+        border-radius: 10px;
+
+        &:hover {
+            opacity: 1;
+        }
+        
     }//this closes .log-in
 
     .sign-up {
         background-color: @yellow;
-        width: 80px;
-    }
+        font-size: 1.6rem;
+        width: 40%;
+        padding: 2% 5%;
+        border-radius: 10px;
+        opacity: 0.9;
 
+        &:hover {
+            opacity: 1;
+        }
+    
+    }//this closes .sign-up
 }//this closes .nav-container
