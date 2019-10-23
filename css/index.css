@@ -160,7 +160,7 @@ h3 {
 }
 p {
   font-size: 1.6rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .container {
   max-width: 1240px;
@@ -171,10 +171,12 @@ p {
   text-align: center;
 }
 .nav-container {
+  background-color: #FFF8DC;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2% 0;
+  width: 100%;
 }
 @media (max-width: 800px) {
   .nav-container {
@@ -198,9 +200,16 @@ p {
 }
 @media (max-width: 800px) {
   .nav-container nav {
+    width: 70%;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+}
+@media (max-width: 800px) and (max-width: 500px) {
+  .nav-container nav {
     width: 100%;
-    justify-content: space-evenly;
-    padding: 2%;
+    justify-content: space-between;
+    padding: 1rem;
   }
 }
 .nav-container nav a {
@@ -295,7 +304,7 @@ footer nav a {
 .how-it-works {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0px;
+  padding: 40px 20px;
 }
 @media (max-width: 500px) {
   .how-it-works {
@@ -381,7 +390,7 @@ footer nav a {
 }
 .shop-now p {
   text-align: center;
-  width: 60%;
+  width: 30%;
   padding: 20px 0px;
 }
 @media (max-width: 500px) {
