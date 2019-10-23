@@ -80,6 +80,7 @@
 
         @media @mobile {
             width: 80%;
+            margin-top: 30px;
         }
 
         img{
@@ -107,6 +108,7 @@
 
         @media @mobile {
             width: 80%;
+            margin-top: 30px;
         }
 
         img {
@@ -144,6 +146,10 @@
         text-align: center;
         width: 60%;
         padding: 20px 0px; 
+
+        @media @mobile {
+            width: 80%;
+        }
     }
 
     .shop-now-button {
@@ -152,5 +158,15 @@
         padding: 1% 5%;
         border-radius: 10px;
         margin: 20px 0;
+        opacity: 0.9;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        @media @mobile {
+            width: 45%;
+            padding: 2% 5%;
+        }
     }
 }
