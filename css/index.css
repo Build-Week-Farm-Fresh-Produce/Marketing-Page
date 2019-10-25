@@ -141,7 +141,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Pattaya', sans-serif;
+  color: #556B2F;
 }
 h1 {
   font-size: 4rem;
@@ -425,7 +426,6 @@ body {
   background-color: #FFF8DC;
 }
 h1,
-h2,
 h3,
 h4,
 h5 {
