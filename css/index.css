@@ -468,3 +468,6 @@ h5 {
 .about .col12 h1 {
   color: #556B2F;
 }
+.about strong {
+  font-weight: bolder;
+}
